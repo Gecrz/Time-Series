@@ -16,9 +16,9 @@ Use the results of the time series analysis and modeling to answer the following
 2. Is the risk of the yen expected to increase or decrease?
 3. Based on the model evaluation, would you feel confident in using these models for trading?
 
-#### Linear Regression Forecasting -Second Notebook
+#### Linear Regression Forecasting -Second Notebook using scikit-Learn
 
-In this notebook, you will build a Scikit-Learn linear regression model to predict Yen futures ("settle") returns with *lagged* Yen futures returns and categorical calendar seasonal effects (e.g., day-of-week or week-of-year seasonal effects).
+In this notebook, we will build a Scikit-Learn linear regression model to predict Yen futures ("settle") returns with *lagged* Yen futures returns and categorical calendar seasonal effects (e.g., day-of-week or week-of-year seasonal effects).
 
 Follow the steps outlined in the regression_analysis starter notebook to complete the following:
 
