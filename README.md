@@ -31,3 +31,19 @@ Follow the steps outlined in the regression_analysis starter notebook to complet
 Use the results of the linear regression analysis and modeling to answer the following question:
 
 * Does this model perform better or worse on out-of-sample data compared to in-sample data?
+
+## Report Summary
+
+In this assignment, we were tasked to test the many time-series tools that we have learned in order to predict future movements in the value of the Japanese yen versus the U.S. dollar. To do taht, I used Time Series analysis and regression methods. From the time series standpoint analysis, I utilized ARMA and ARIMA models to forecast the return price for Japannese Yen and the GARCH method to visualize the currency volatility. The first two models, ARMA and ARIMA have p-values over 0.05, which makes the model not significant. The 5 day forecast reveals an up trend on the Japannese Yen return, while predicting the volatility to increase as well.
+
+Key Points of Time Series Analysis
+
+The volatility for yen is supposed to increase. And when there is high volatility, there is increase of risk as well. Risk averse investor should not buy Yen right now. Risk is expected to increase. The Arma model wasnt significant because p-value exceedd 0.05. But overall, I would feel confident using these models for trading, as they give me predictions of future trends based on past returns.
+
+In addition, we computed a regression Analysis with the SKLearn linear regression model to predict Yen futures ("settle") returns with lagged Yen futures returns and plotted the predicted returns vs the real/true values. In addition, we computed in sample and out of sample performance metrics. We can see that the model shows a root mean square error of 0.396% on out-of-sample data and 0.5657% on in-sample data. Usually, there is no correct value of MSE. However, the lowest its value the better, as it shows that the data are dispersed closely to the mean.
+
+Key Points Regression Analysis
+
+We can see that the model shows a root mean square error of 0.396% on out-of-sample data and 0.5657% on in-sample data. Usually, there is no correct value of MSE. However, the lowest its value the better, as it shows that the data are dispersed closely to the mean.
+
+Also, in sample error is the one obtained using the same dataset of the model. Because of the over-fitting , out of sample rate is the one we usually care about, as we used new data set to get the error rate.
